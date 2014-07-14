@@ -1,0 +1,16 @@
+body {
+    & > header {
+        background: aqua;
+        border-bottom: 5px solid blue;
+        padding: 10px;
+        .header-left {
+
+        }
+        .header-right {
+            text-align: right;
+        }
+    }
+    & > footer {
+        border-top: 5px solid blue;
+    }
+}

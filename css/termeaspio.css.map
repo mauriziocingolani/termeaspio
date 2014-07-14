@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,aAAW;EACP,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,cAAc;EAC7B,OAAO,EAAE,IAAI;EAIb,2BAAc;IACV,UAAU,EAAE,KAAK;AAGzB,aAAW;EACP,UAAU,EAAE,cAAc",
+"sources": ["../assets/scss/termeaspio.scss"],
+"names": [],
+"file": "termeaspio.css"
+}

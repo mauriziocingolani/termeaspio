@@ -18,7 +18,7 @@ class SiteController extends Controller {
     /* === Actions === */
 
     public function actionIndex() {
-        $this->addControllerJs('p_index');
+        $this->addJs('framework/p_basic');
         $this->render('index');
     }
 

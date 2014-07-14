@@ -23,12 +23,18 @@
 
         <?php $this->widget('application.components.widgets.ModalDialogWidget'); ?>
 
+        <!-- === HEADER === -->
+        <?php $this->renderPartial('//layouts/_main_header'); ?>
+
         <div class="container">
 
             <!-- === CONTENUTO PRINCIPALE === -->
             <?php echo $content; ?>
 
         </div>
+
+        <!-- === FOOTER === -->
+        <?php $this->renderPartial('//layouts/_main_footer'); ?>
 
     </body>
 
