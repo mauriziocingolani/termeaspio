@@ -1,0 +1,9 @@
+[submodule "js/framework"]
+	path = js/framework
+	url = https://github.com/mauriziocingolani/yii_fmwk_js
+[submodule "protected/extensions/bootstrap"]
+	path = protected/extensions/bootstrap
+	url = https://github.com/mauriziocingolani/yii_fmwk_bootstrap
+[submodule "protected/extensions/validators"]
+	path = protected/extensions/validators
+	url = https://github.com/mauriziocingolani/yii_fmwk_validators

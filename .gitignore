@@ -1,0 +1,5 @@
+/protected/config/config_mail.php
+/protected/config/config_params.php
+/protected/config/config_rules.php
+/nbproject
+.DS_Store
