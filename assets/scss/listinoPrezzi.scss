@@ -1,0 +1,16 @@
+@import '_colors';
+
+section {
+    h4 {
+        text-transform: uppercase;
+    }
+    & > ul > li {
+        color: $lightBlue;
+        margin-bottom: 10px;
+    }
+    li > ul {
+        color: $darkBlue;
+        font-style: italic;
+        list-style: none;
+    }
+}

@@ -23,8 +23,9 @@ class SiteController extends Controller {
     }
 
     public function actionListinoPrezzi() {
+        $this->addCss('listinoPrezzi');
         $this->addControllerJs('p_index');
-        $this->render('index');
+        $this->render('listinoPrezzi');
     }
 
     public function actionPromozioni() {

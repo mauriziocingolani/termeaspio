@@ -12,7 +12,7 @@
             m.parentNode.insertBefore(a, m)
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create',<?php echo Yii::app()->params['analytics']['key']; ?>,<?php echo Yii::app()->params['analytics']['domain']; ?>);
+        ga('create', '<?php echo Yii::app()->params['analytics']['key']; ?>', '<?php echo Yii::app()->params['analytics']['domain']; ?>');
         ga('send', 'pageview');
 
     </script>

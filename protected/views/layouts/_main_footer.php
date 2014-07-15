@@ -36,10 +36,10 @@
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-default pull-left prev">
                                                 <i class="glyphicon glyphicon-chevron-left"></i>
-                                                Previous
+                                                Precedente
                                             </button>
                                             <button type="button" class="btn btn-primary next">
-                                                Next
+                                                Successiva
                                                 <i class="glyphicon glyphicon-chevron-right"></i>
                                             </button>
                                         </div>
