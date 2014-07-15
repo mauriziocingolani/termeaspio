@@ -18,6 +18,7 @@ class ServiziController extends Controller {
     /* === Actions === */
 
     public function actionIndex() {
+        $this->addCss('servizi');
         $this->addJs('framework/p_basic');
         $this->render('index');
     }
@@ -27,7 +28,7 @@ class ServiziController extends Controller {
         $this->render('index');
     }
 
-    public function actionCureAntiAge() {
+    public function actionCureAntiAging() {
         $this->addJs('framework/p_basic');
         $this->render('index');
     }
