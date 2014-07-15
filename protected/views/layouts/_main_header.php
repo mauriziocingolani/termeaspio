@@ -10,7 +10,7 @@
             </div>
             <div class="col-sm-6 header-right">
 
-                Contattaci: 071-95691<br />
+                Contattaci: 071 95691<br />
                 <?php echo Html::link('info@termeaspio.it', 'mailto:info@termeaspio.it'); ?>
 
             </div>

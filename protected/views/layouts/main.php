@@ -7,6 +7,8 @@
 
         <meta name="description" content="<?php echo Html::encode(Yii::app()->params['description']); ?>">
         <meta name="author" content="<?php echo Html::encode(Yii::app()->params['author']); ?>">
+        
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
 
         <?php $this->css(); ?>
         <?php $this->js(); ?>
@@ -35,6 +37,10 @@
 
         <!-- === FOOTER === -->
         <?php $this->renderPartial('//layouts/_main_footer'); ?>
+
+        <!-- Google Analytics --->
+
+        <?php $this->widget('application.components.widgets.GoogleAnalyticsWidget'); ?>
 
     </body>
 
