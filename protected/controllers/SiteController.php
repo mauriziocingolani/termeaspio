@@ -18,7 +18,27 @@ class SiteController extends Controller {
     /* === Actions === */
 
     public function actionIndex() {
-        $this->addJs('framework/p_basic');
+        $this->addControllerJs('p_index');
+        $this->render('index');
+    }
+
+    public function actionListinoPrezzi() {
+        $this->addControllerJs('p_index');
+        $this->render('index');
+    }
+
+    public function actionPromozioni() {
+        $this->addControllerJs('p_index');
+        $this->render('index');
+    }
+
+    public function actionStaffMedico() {
+        $this->addControllerJs('p_index');
+        $this->render('index');
+    }
+
+    public function actionContatti() {
+        $this->addControllerJs('p_index');
         $this->render('index');
     }
 
@@ -27,7 +47,7 @@ class SiteController extends Controller {
             if (Yii::app()->request->isAjaxRequest) :
                 echo $error['message'];
             else :
-                $this->addJs('framework/p_basic');
+                $this->addControllerJs('p_index');
                 $this->render('error', $error);
             endif;
         endif;

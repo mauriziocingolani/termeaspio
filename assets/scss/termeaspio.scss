@@ -1,8 +1,26 @@
+@import '_colors';
+
+a {
+    transition: color 0.5s;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
 body {
     & > header {
-        background: aqua;
-        border-bottom: 5px solid blue;
+        background: $lightBlue;
+        border-bottom: 4px solid $darkBlue;
+        color: white;
         padding: 10px;
+        font-size: 2.0em;
+        text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+        a {
+            color: white;
+            &:hover {
+                color: #bababa;
+            }
+        }
         .header-left {
 
         }
@@ -10,7 +28,18 @@ body {
             text-align: right;
         }
     }
-    & > footer {
-        border-top: 5px solid blue;
+    nav {
+        margin-top: 25px;
+        .container-fluid {
+            padding-left: 0;
+        }
     }
+    & > footer {
+        border-top: 4px solid $darkBlue;
+    }
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: $headers;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
 }
