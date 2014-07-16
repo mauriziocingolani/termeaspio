@@ -14,7 +14,7 @@
         </p>
     </div>
 
-    <!-- COLONNA DX -->
+    <!-- COLONNA DX --> 
     <div class="col-sm-6">
 
         <?php
@@ -44,8 +44,14 @@
             <?php echo Bootstrap::TextareaField($model, 'Message', array('placeholder' => 'es. Vorrei sapere...')); ?>
             <?php echo Bootstrap::ErrorDiv($model, 'Message'); ?>
         </div>
+        <div id="<?php echo get_class($model); ?>_SecurityField_div" class="form-group security">
+            <?php echo Bootstrap::Label($model, 'SecurityField'); ?>
+            <?php echo Bootstrap::TextField($model, 'SecurityField'); ?>
+            <?php echo Bootstrap::ErrorDiv($model, 'SecurityField'); ?>
+        </div>
 
-        <?php echo Bootstrap::Button('submit', 'Invia', null, array('block', 'lg', 'primary')); ?>
+        <?php echo Bootstrap::Button('submit', 'Invia', null, array('block', 'lg', 'primary'));
+        ?>
 
         <?php echo Bootstrap::FormMessage($model); ?>
 

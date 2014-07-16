@@ -11,6 +11,7 @@ class ContactsForm extends CFormModel {
     public $Email;
     public $Subject;
     public $Message;
+    public $SecurityField;
 
     public function attributeLabels() {
         return array(

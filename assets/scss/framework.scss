@@ -1,5 +1,5 @@
 /* CSS framework
-@version 1.0.2 */
+@version 1.0.3 */
 
 /* body */
 body {
@@ -86,4 +86,9 @@ div.form-message {
 }
 .has-feedback .form-control-feedback.currency {
     left: 0;
+}
+.security {
+    position: fixed;
+    top:-100000;
+    left: -100000;
 }

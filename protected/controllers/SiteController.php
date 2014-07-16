@@ -67,23 +67,27 @@ class SiteController extends Controller {
 
     public function actionSendContactEmail() {
         $return = new AjaxReturnObject;
-        $message = new YiiMailMessage;
-        $message->view = 'contactMessage';
-        $message->subject = 'TERME DELL\'ASPIO - Richiesta contatto';
-        $message->addTo(Yii::app()->params['contactEmail']);
-        $d = new stdClass();
-        $d->Name = Yii::app()->request->getPost('Name');
-        $d->Email = Yii::app()->request->getPost('Email');
-        $d->Subject = Yii::app()->request->getPost('Subject');
-        $d->Message = Yii::app()->request->getPost('Message');
-        $message->setBody(array(
-            'data' => $d,
-                ), 'text/html');
-        $message->from = 'webmaster@ggfgroup.net';
-        if (Yii::app()->mail->send($message) === 0) :
-            $return->setErrorMessage('Impossible inviare il messaggio.');
+        if (strlen(Yii::app()->request->getPost('SecurityField')) > 0) :
+            $return->setErrorMessage('Impossibile inviare il messaggio');
         else :
-            $return->setSuccessMessage('Il messaggio &egrave; stato inviato correttamente.');
+            $message = new YiiMailMessage;
+            $message->view = 'contactMessage';
+            $message->subject = 'TERME DELL\'ASPIO - Richiesta contatto';
+            $message->addTo(Yii::app()->params['contactEmail']);
+            $d = new stdClass();
+            $d->Name = Yii::app()->request->getPost('Name');
+            $d->Email = Yii::app()->request->getPost('Email');
+            $d->Subject = Yii::app()->request->getPost('Subject');
+            $d->Message = Yii::app()->request->getPost('Message');
+            $message->setBody(array(
+                'data' => $d,
+                    ), 'text/html');
+            $message->from = 'webmaster@ggfgroup.net';
+            if (Yii::app()->mail->send($message) === 0) :
+                $return->setErrorMessage('Impossible inviare il messaggio.');
+            else :
+                $return->setSuccessMessage('Il messaggio &egrave; stato inviato correttamente.');
+            endif;
         endif;
         echo json_encode($return);
     }
