@@ -45,7 +45,7 @@
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="/servizi">Servizi</a></li>
                                     <li><a href="/servizi/le-cure-termali">Le cure termali</a></li>
-                                    <li><a href="/servizi/le-cure-anti-age">Le cure anti-age</a></li>
+                                    <li><a href="/servizi/le-cure-anti-aging">Le cure anti-aging</a></li>
                                     <li><a href="/servizi/dietologia">Dietologia</a></li>
                                     <li><a href="/servizi/poliambulatorio">Poliambulatorio</a></li>
                                     <li><a href="/servizi/area-benessere">Area benessere</a></li>

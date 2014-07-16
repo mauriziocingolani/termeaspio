@@ -25,27 +25,27 @@ class ServiziController extends Controller {
 
     public function actionCureTermali() {
         $this->addJs('framework/p_basic');
-        $this->render('index');
+        $this->render('cureTermali');
     }
 
     public function actionCureAntiAging() {
         $this->addJs('framework/p_basic');
-        $this->render('index');
+        $this->render('cureAntiAging');
     }
 
     public function actionDietologia() {
         $this->addJs('framework/p_basic');
-        $this->render('index');
+        $this->render('dietologia');
     }
 
     public function actionPoliambulatorio() {
         $this->addJs('framework/p_basic');
-        $this->render('index');
+        $this->render('poliambulatorio');
     }
 
     public function actionAreaBenessere() {
         $this->addJs('framework/p_basic');
-        $this->render('index');
+        $this->render('areaBenessere');
     }
 
 }

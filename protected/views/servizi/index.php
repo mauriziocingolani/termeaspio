@@ -1,10 +1,4 @@
-<div class="row">
-
-    <div class="col-sm-12">
-        <h1>Servizi</h1>
-    </div>
-
-</div>
+<h1>Servizi</h1>
 
 <div class="row">
 
