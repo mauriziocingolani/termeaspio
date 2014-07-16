@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,QAAE;EACE,SAAS,EAAE,KAAK",
+"sources": ["../assets/scss/staffMedico.scss"],
+"names": [],
+"file": "staffMedico.css"
+}

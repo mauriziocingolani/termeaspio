@@ -11,7 +11,7 @@
     <div class="col-sm-6">
         <?php
         $this->beginWidget('application.components.servizi.ServizioWidget', array(
-            'image' => '/images/servizi/cure-termali.jpg',
+            'image' => '/images/servizi/cure-termali_small.jpg',
             'title' => 'Le cure termali',
             'link' => '/servizi/le-cure-termali',
         ));
@@ -24,7 +24,7 @@
     <div class="col-sm-6">
         <?php
         $this->beginWidget('application.components.servizi.ServizioWidget', array(
-            'image' => '/images/servizi/cure-anti-aging.jpg',
+            'image' => '/images/servizi/cure-anti-aging_small.jpg',
             'title' => 'Le cure anti-aging',
             'link' => '/servizi/le-cure-anti-aging',
         ));
@@ -42,7 +42,7 @@
     <div class="col-sm-6">
         <?php
         $this->beginWidget('application.components.servizi.ServizioWidget', array(
-            'image' => '/images/servizi/dietologia.png',
+            'image' => '/images/servizi/dietologia_small.png',
             'title' => 'Dietologia',
             'link' => '/servizi/dietologia',
         ));
@@ -55,7 +55,7 @@
     <div class="col-sm-6">
         <?php
         $this->beginWidget('application.components.servizi.ServizioWidget', array(
-            'image' => '/images/servizi/poliambulatorio.png',
+            'image' => '/images/servizi/poliambulatorio_small.jpg',
             'title' => 'poliambulatorio',
             'link' => '/servizi/poliambulatorio',
         ));
@@ -72,7 +72,7 @@
     <div class="col-sm-6">
         <?php
         $this->beginWidget('application.components.servizi.ServizioWidget', array(
-            'image' => '/images/servizi/area-benessere.jpg',
+            'image' => '/images/servizi/area-benessere_small.jpg',
             'title' => 'Area benessere',
             'link' => '/servizi/area-benessere',
         ));

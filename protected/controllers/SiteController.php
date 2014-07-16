@@ -29,18 +29,21 @@ class SiteController extends Controller {
     }
 
     public function actionPromozioni() {
+        $this->addCss('promozioni');
         $this->addControllerJs('p_index');
-        $this->render('index');
+        $this->render('promozioni');
     }
 
     public function actionStaffMedico() {
+        $this->addCss('staffMedico');
         $this->addControllerJs('p_index');
-        $this->render('index');
+        $this->render('staffMedico');
     }
 
     public function actionContatti() {
+        $this->addCss('contatti');
         $this->addControllerJs('p_index');
-        $this->render('index');
+        $this->render('contatti');
     }
 
     public function actionError() {
