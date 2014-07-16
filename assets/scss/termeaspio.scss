@@ -8,6 +8,7 @@ a {
 }
 
 body {
+    color: $headers;
     & > header {
         background: $lightBlue;
         border-bottom: 4px solid $darkBlue;

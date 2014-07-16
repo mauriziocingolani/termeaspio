@@ -106,7 +106,11 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12 item">
-                        <iframe style="pointer-events: none;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d92569.00792454933!2d13.519483!3d43.527749!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132d80b7d308fcfb%3A0xca472f966fd4bac6!2sTerme+Aspio!5e0!3m2!1sit!2sit!4v1405416943973" frameborder="0" style="border:0"></iframe>
+                        <iframe 
+                            style="width: 100%;" 
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d92569.00792454933!2d13.519483!3d43.527749!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132d80b7d308fcfb%3A0xca472f966fd4bac6!2sTerme+Aspio!5e0!3m2!1sit!2sit!4v1405416943973" 
+                            frameborder="0" 
+                            height="200"></iframe>
                     </div>
                 </div>
 

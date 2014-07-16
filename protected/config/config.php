@@ -13,7 +13,7 @@ return array(
         'application.components.user.*',
         'application.extensions.bootstrap.*',
         'application.extensions.validators.*',
-//        'ext.yii-mail.YiiMailMessage',
+        'ext.yii-mail.YiiMailMessage',
     ),
     'components' => array(
 //        'db' => require(dirname(__FILE__) . '/config_db.php'),
@@ -34,7 +34,7 @@ return array(
                 ),
             ),
         ),
-//        'mail' => require(dirname(__FILE__) . '/config_mail.php'),
+        'mail' => require(dirname(__FILE__) . '/config_mail.php'),
 //        'session' => array(
 //            'autoCreateSessionTable' => false,
 //            'autoStart' => true,
