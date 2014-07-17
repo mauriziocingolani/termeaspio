@@ -1,6 +1,8 @@
 a {
+  color: #26a8e8;
   transition: color 0.5s; }
   a:hover {
+    color: #17668b;
     text-decoration: none; }
 
 body {
@@ -15,17 +17,44 @@ body {
     body > header a {
       color: white; }
       body > header a:hover {
-        color: #bababa; }
+        color: #17668b; }
+    body > header .header-left {
+      text-align: center; }
+      @media only screen and (min-width: 768px) {
+        body > header .header-left {
+          text-align: left; } }
     body > header .header-right {
-      text-align: right; }
+      padding-top: 25px;
+      text-align: center; }
+      @media only screen and (min-width: 768px) {
+        body > header .header-right {
+          text-align: right; } }
   body nav {
     margin-top: 25px; }
-    body nav .container-fluid {
-      padding-left: 0; }
+    body nav li {
+      text-align: center; }
+      @media only screen and (min-width: 768px) {
+        body nav li {
+          text-align: left; } }
+      body nav li:hover {
+        background: #eee; }
+    body nav .navbar-header {
+      text-align: center; }
+    body nav .navbar-toggle {
+      float: none;
+      /*margin-left: 15px;*/ }
   body > footer {
-    border-top: 4px solid #17668b; }
-    body > footer .item .row:nth-child(2) {
-      margin-bottom: 25px; }
+    border-top: 4px solid #17668b;
+    margin-top: 25px; }
+    body > footer .item {
+      margin-bottom: 25px;
+      text-align: center; }
+      @media only screen and (min-width: 768px) {
+        body > footer .item {
+          text-align: left; } }
+      body > footer .item h4 {
+        margin-bottom: 25px;
+        margin-top: 25px; }
     body > footer .social {
       font-size: 2.5em; }
     body > footer .copyright {
@@ -36,6 +65,26 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #007b9a;
+  margin-top: 5px;
   text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px; }
+
+h1 {
+  margin-bottom: 25px; }
+
+/* Carousel */
+.carousel-caption {
+  color: #26a8e8;
+  text-align: right; }
+
+.carousel-control {
+  width: 5%; }
+
+.carousel-indicators {
+  bottom: 0 !important; }
+
+.carousel-caption {
+  left: 70%;
+  right: 10%;
+  top: 20px; }
 
 /*# sourceMappingURL=termeaspio.css.map */

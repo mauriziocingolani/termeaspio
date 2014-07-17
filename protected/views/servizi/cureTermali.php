@@ -1,6 +1,7 @@
 <h1>Le cure termali</h1>
 
-<img class="img-responsive" src="/images/servizi/cure-termali.jpg" alt="cure-termali" />        
+<!--<img class="img-responsive" src="/images/servizi/cure-termali.jpg" alt="cure-termali" />-->        
+<img class="img-responsive"src="http://placehold.it/1350x600">
 
 <h4>Area Cure inalatorie</h4>
 <p>

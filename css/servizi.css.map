@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AACI,YAAG;EACC,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,KAAK;AAErB,gBAAO;EACH,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,IAAI;AAEjB,WAAE;EACE,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,OAAO",
+"sources": ["../assets/scss/servizi.scss"],
 "names": [],
 "file": "servizi.css"
 }

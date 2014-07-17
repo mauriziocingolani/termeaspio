@@ -1,6 +1,7 @@
 <h1>Poliambulatorio</h1>
 
-<img class="img-responsive" src="/images/servizi/poliambulatorio.png" alt="poliambulatorio" />        
+<!--<img class="img-responsive" src="/images/servizi/poliambulatorio.png" alt="poliambulatorio" />-->        
+<img class="img-responsive"src="http://placehold.it/1350x600">
 
 <h4>Ambulatorio di Cardiologia</h4>
 <p>

@@ -1,3 +1,12 @@
-
+.servizio h4 {
+  padding: 0;
+  margin: 0;
+  text-align: right; }
+.servizio .upper {
+  background: #eee;
+  padding: 15px; }
+.servizio p {
+  padding-top: 15px;
+  text-align: justify; }
 
 /*# sourceMappingURL=servizi.css.map */

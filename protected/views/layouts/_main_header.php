@@ -5,7 +5,9 @@
 
             <div class="col-sm-6 header-left">
 
-                <img class="img-responsive" src="/images/logo_terme_aspio.jpg" alt="logo_terme_aspio" />
+                <a href="/">
+                    <img src="/images/logo_terme_aspio.jpg" alt="logo_terme_aspio" />
+                </a>
 
             </div>
             <div class="col-sm-6 header-right">
@@ -27,7 +29,7 @@
             <nav class="navbar navbar-default" role="navigation">
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
+                    <div class="navbar-header navbar-left">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
@@ -57,9 +59,9 @@
                             <li class="<?php if (Yii::app()->controller->id == 'site' && Yii::app()->controller->action->id == 'promozioni') echo 'active'; ?>">
                                 <a href="/promozioni">Promozioni</a>
                             </li>
-                            <li class="<?php if (Yii::app()->controller->id == 'site' && Yii::app()->controller->action->id == 'staffMedico') echo 'active'; ?>">
+<!--                            <li class="<?php if (Yii::app()->controller->id == 'site' && Yii::app()->controller->action->id == 'staffMedico') echo 'active'; ?>">
                                 <a href="/staff-medico">Staff medico</a>
-                            </li>
+                            </li>-->
                             <li class="<?php if (Yii::app()->controller->id == 'site' && Yii::app()->controller->action->id == 'contatti') echo 'active'; ?>">
                                 <a href="/contatti">Contatti</a>
                             </li>

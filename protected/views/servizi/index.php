@@ -50,7 +50,7 @@
         <?php
         $this->beginWidget('application.components.servizi.ServizioWidget', array(
             'image' => '/images/servizi/poliambulatorio_small.jpg',
-            'title' => 'poliambulatorio',
+            'title' => 'Poliambulatorio',
             'link' => '/servizi/poliambulatorio',
         ));
         ?>

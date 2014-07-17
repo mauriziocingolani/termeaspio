@@ -1,15 +1,27 @@
-<div class="row">
-    <div class="col-xs-8">
-        <a href="<?php echo $this->link; ?>">
-            <img src="<?php echo $this->image; ?>" class="img-responsive" />
-        </a>
-    </div>
-    <div class="col-xs-4">
-        <a href="<?php echo $this->link; ?>"><?php echo $this->title; ?></a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-12">
-        <?php echo $this->message; ?>
+<div class="row servizio">
+    <div class="col-md-12">
+
+        <div class="upper">
+            <div class="row ">
+
+                <div class="col-xs-6">
+                    <a href="<?php echo $this->link; ?>">
+                        <!--<img src="<?php echo $this->image; ?>" class="img-responsive" />-->
+                        <img class="img-responsive" src="http://placehold.it/450x200">
+                    </a>
+                </div>
+                <div class="col-xs-6">
+                    <h4>
+                        <a href="<?php echo $this->link; ?>"><?php echo $this->title; ?></a>
+                    </h4>
+                </div>
+
+            </div>
+        </div>
+
+        <p>
+            <?php echo $this->message; ?>
+        </p>
+
     </div>
 </div>

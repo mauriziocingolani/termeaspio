@@ -1,8 +1,10 @@
 @import '_colors';
 
 a {
+    color: $lightBlue;
     transition: color 0.5s;
     &:hover {
+        color: $darkBlue;
         text-decoration: none;
     }
 }
@@ -19,27 +21,54 @@ body {
         a {
             color: white;
             &:hover {
-                color: #bababa;
+                color: $darkBlue;
             }
         }
         .header-left {
-
+            text-align: center;
+            @media only screen and (min-width: 768px) {
+                text-align: left;
+            }
         }
         .header-right {
-            text-align: right;
+            padding-top: 25px;
+            text-align: center;
+            @media only screen and (min-width: 768px) {
+                text-align: right;
+            }
         }
     }
     nav {
         margin-top: 25px;
-        .container-fluid {
-            padding-left: 0;
+        li {
+            text-align: center;
+            @media only screen and (min-width: 768px) {
+                text-align: left;
+            }
+            &:hover {
+                background: #eee;
+            }
+        }
+        .navbar-header {
+            text-align: center;
+        }
+        .navbar-toggle {
+            float: none;
+            /*margin-left: 15px;*/
         }
     }
     & > footer {
         border-top: 4px solid $darkBlue;
+        margin-top: 25px;
         .item {
-            .row:nth-child(2) {
+            margin-bottom: 25px;
+            text-align: center;
+            @media only screen and (min-width: 768px) {
+                text-align: left;
+            }
+            h4 {
                 margin-bottom: 25px;
+                margin-top: 25px;
             }
         }
         .social {
@@ -56,5 +85,26 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
     color: $headers;
+    margin-top:5px;
     text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+}
+h1 {
+    margin-bottom: 25px;
+}
+
+/* Carousel */
+.carousel-caption {
+    color: $lightBlue;
+    text-align: right;
+}
+.carousel-control {
+    width: 5%;
+}
+.carousel-indicators {
+    bottom: 0!important;
+}
+.carousel-caption {
+    left: 70%;
+    right: 10%; 
+    top: 20px;
 }

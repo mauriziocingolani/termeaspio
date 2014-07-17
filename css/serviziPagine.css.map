@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,EAAG;EACC,UAAU,EAAE,IAAI",
+"sources": ["../assets/scss/serviziPagine.scss"],
+"names": [],
+"file": "serviziPagine.css"
+}

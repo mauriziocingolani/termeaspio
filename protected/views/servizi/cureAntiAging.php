@@ -1,6 +1,7 @@
 <h1>Le cure anti aging</h1>
 
-<img class="img-responsive" src="/images/servizi/cure-anti-aging.jpg" alt="cure-anti-aging" />        
+<!--<img class="img-responsive" src="/images/servizi/cure-anti-aging.jpg" alt="cure-anti-aging" />-->        
+<img class="img-responsive"src="http://placehold.it/1350x600">
 
 <h4>Idrocolon Terapia</h4>
 <p>

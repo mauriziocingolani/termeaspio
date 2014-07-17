@@ -1,6 +1,7 @@
 <h1>Dietologia</h1>
 
-<img class="img-responsive" src="/images/servizi/dietologia.png" alt="dietologia" />        
+<!--<img class="img-responsive" src="/images/servizi/dietologia.png" alt="dietologia" />-->        
+<img class="img-responsive"src="http://placehold.it/1350x600">
 
 <h4>
     Visite specialistiche atte ad identificare il corretto fabbisogno alimentare del singolo paziente

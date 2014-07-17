@@ -18,21 +18,24 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="/images/home/home1.jpg" alt="home1">
+                    <!--<img src="/images/home/home1.jpg" alt="home1">-->
+                    <img class="img-responsive"src="http://placehold.it/1200x400">
                     <div class="carousel-caption">
-                        ...
+                        Le Terme dell’Aspio si trovano nei pressi del Monte Conero in un’area che invita alla scoperta e al relax. Dispongnono di un’equipe medica in grado di seguire i pazienti affetti da diverse patologie mediante l’utilizzo delle acque termali e con l’ausilio delle più moderne tecnologie, in un ambiente ideale per il benessere fisico e mentale.
                     </div>
                 </div>
                 <div class="item">
-                    <img src="/images/home/home2.jpg" alt="home2">
+                    <!--<img src="/images/home/home2.jpg" alt="home2">-->
+                    <img class="img-responsive"src="http://placehold.it/1200x400">
                     <div class="carousel-caption">
-                        ...
+                        Le Terme dell’Aspio si trovano nei pressi del Monte Conero in un’area che invita alla scoperta e al relax. Dispongnono di un’equipe medica in grado di seguire i pazienti affetti da diverse patologie mediante l’utilizzo delle acque termali e con l’ausilio delle più moderne tecnologie, in un ambiente ideale per il benessere fisico e mentale.
                     </div>
                 </div>
                 <div class="item">
-                    <img src="/images/home/home3.jpg" alt="home3">
+                    <!--<img src="/images/home/home3.jpg" alt="home3">-->
+                    <img class="img-responsive"src="http://placehold.it/1200x400">
                     <div class="carousel-caption">
-                        ...
+                        Le Terme dell’Aspio si trovano nei pressi del Monte Conero in un’area che invita alla scoperta e al relax. Dispongnono di un’equipe medica in grado di seguire i pazienti affetti da diverse patologie mediante l’utilizzo delle acque termali e con l’ausilio delle più moderne tecnologie, in un ambiente ideale per il benessere fisico e mentale.
                     </div>
                 </div>
             </div>
