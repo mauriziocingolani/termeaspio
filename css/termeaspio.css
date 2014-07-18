@@ -6,7 +6,7 @@ a {
     text-decoration: none; }
 
 body {
-  color: #007b9a; }
+  color: #26a8e8; }
   body > header {
     background: #26a8e8;
     border-bottom: 4px solid #17668b;
@@ -71,20 +71,13 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   margin-bottom: 25px; }
 
-/* Carousel */
-.carousel-caption {
-  color: #26a8e8;
-  text-align: right; }
-
-.carousel-control {
-  width: 5%; }
-
-.carousel-indicators {
-  bottom: 0 !important; }
-
-.carousel-caption {
-  left: 70%;
-  right: 10%;
-  top: 20px; }
+/* blocco descrittivo home page */
+.termeaspio {
+  margin-top: 25px; }
+  .termeaspio .text {
+    font-size: 2.0em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center; }
 
 /*# sourceMappingURL=termeaspio.css.map */
