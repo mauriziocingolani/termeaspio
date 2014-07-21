@@ -1,5 +1,5 @@
 /* CSS framework
-@version 1.0.3 */
+@version 1.0.4 */
 /* body */
 body {
   overflow: hidden; }
@@ -47,6 +47,12 @@ blockquote.server_error {
   blockquote.server_error:after {
     content: close-quote; }
 
+/* Paragrafo creazione/modifica/id */
+p.created-updated-p {
+  color: #bababa;
+  font-size: 0.8em;
+  font-style: italic; }
+
 /* Pulsante caricamento file */
 .btn-file {
   position: relative;
@@ -86,6 +92,7 @@ div.form-message {
 
 .security {
   position: fixed;
-  left: -999em; }
+  top: -100000;
+  left: -100000; }
 
 /*# sourceMappingURL=framework.css.map */
