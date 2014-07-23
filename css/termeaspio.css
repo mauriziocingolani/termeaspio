@@ -32,6 +32,7 @@ body {
   body nav {
     margin-top: 25px; }
     body nav li {
+      font-weight: bold;
       text-align: center; }
       @media only screen and (min-width: 768px) {
         body nav li {
@@ -43,6 +44,15 @@ body {
     body nav .navbar-toggle {
       float: none;
       /*margin-left: 15px;*/ }
+    body nav.navbar-default {
+      background: none;
+      border: none; }
+      body nav.navbar-default .navbar-nav > li > a {
+        color: #26a8e8;
+        font-size: 1.5em; }
+      body nav.navbar-default .navbar-nav > .active a {
+        background: none;
+        color: #17668b; }
   body > footer {
     border-top: 4px solid #17668b;
     margin-top: 25px; }

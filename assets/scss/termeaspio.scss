@@ -41,6 +41,7 @@ body {
     nav {
         margin-top: 25px;
         li {
+            font-weight: bold;
             text-align: center;
             @media only screen and (min-width: 768px) {
                 text-align: left;
@@ -55,6 +56,20 @@ body {
         .navbar-toggle {
             float: none;
             /*margin-left: 15px;*/
+        }
+        &.navbar-default {
+            background: none;
+            border: none;
+            .navbar-nav {
+                & > li > a {
+                    color:$lightBlue;
+                    font-size: 1.5em;
+                }
+                & > .active a {
+                    background: none;
+                    color: $darkBlue;
+                }
+            }
         }
     }
     & > footer {
