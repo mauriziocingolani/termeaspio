@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AACI,aAAE;EACE,UAAU,EAAE,OAAO",
+"mappings": "AACI,aAAE;EACE,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,OAAO",
 "sources": ["../assets/scss/promozioni.scss"],
 "names": [],
 "file": "promozioni.css"

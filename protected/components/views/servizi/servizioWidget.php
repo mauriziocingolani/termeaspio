@@ -6,8 +6,7 @@
 
                 <div class="col-xs-6">
                     <a href="<?php echo $this->link; ?>">
-                        <!--<img src="<?php echo $this->image; ?>" class="img-responsive" />-->
-                        <img class="img-responsive" src="http://placehold.it/450x200">
+                        <img src="<?php echo $this->image; ?>" class="img-responsive img-thumbnail" />
                     </a>
                 </div>
                 <div class="col-xs-6">

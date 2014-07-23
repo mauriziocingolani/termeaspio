@@ -22,20 +22,20 @@
 
                 <h4>Gallery</h4>
                 <div id="blueimp-gallery" class="blueimp-gallery">
-                    The container for the modal slides 
+                    <!--The container for the modal slides--> 
                     <div class="slides"></div>
-                    Controls for the borderless lightbox 
+                    <!--Controls for the borderless lightbox--> 
                     <h3 class="title"></h3>
                     <a class="prev">‹</a>
                     <a class="next">›</a>
                     <a class="close">×</a>
                     <a class="play-pause"></a>
                     <ol class="indicator"></ol>
-                    The modal dialog, which will be used to wrap the lightbox content 
+                    <!--The modal dialog, which will be used to wrap the lightbox content--> 
                     <div class="modal fade">
                         <div class="modal-dialog">
                             <div class="modal-content">
-                                <div class="modal-header">
+                                <div class="modal-header" style="height: 50px;">
                                     <button type="button" class="close" aria-hidden="true">&times;</button>
                                     <h4 class="modal-title"></h4>
                                 </div>
@@ -55,17 +55,17 @@
                     </div>
                 </div>
                 <div id="links">
-                    <a href="/images/gallery/7b4ac7_45a8d8a7213d47cda576fba91ddedb99.jpg" title="Banana" data-gallery>
-                        <img src="/images/gallery/7b4ac7_45a8d8a7213d47cda576fba91ddedb99.jpg" class="img-thumbnail" alt="Banana">
+                    <a href="/images/gallery/7b4ac7_45a8d8a7213d47cda576fba91ddedb99.jpg" data-gallery>
+                        <img src="/images/gallery/7b4ac7_45a8d8a7213d47cda576fba91ddedb99.jpg" class="img-thumbnail">
                     </a>
-                    <a href="/images/gallery/7b4ac7_927e935c0f0342d5b42452765a8a7e25.jpg" title="Banana" data-gallery>
-                        <img src="/images/gallery/7b4ac7_927e935c0f0342d5b42452765a8a7e25.jpg" class="img-thumbnail" alt="Banana">
+                    <a href="/images/gallery/7b4ac7_927e935c0f0342d5b42452765a8a7e25.jpg" data-gallery>
+                        <img src="/images/gallery/7b4ac7_927e935c0f0342d5b42452765a8a7e25.jpg" class="img-thumbnail">
                     </a>
-                    <a href="/images/gallery/7b4ac7_aa6ba7b98c55473ba7463069d5864e92.jpg" title="Banana" data-gallery>
-                        <img src="/images/gallery/7b4ac7_aa6ba7b98c55473ba7463069d5864e92.jpg" class="img-thumbnail" alt="Banana">
+                    <a href="/images/gallery/7b4ac7_aa6ba7b98c55473ba7463069d5864e92.jpg" data-gallery>
+                        <img src="/images/gallery/7b4ac7_aa6ba7b98c55473ba7463069d5864e92.jpg" class="img-thumbnail"
                     </a>
-                    <a href="/images/gallery/7b4ac7_faeaf96c34f2475cadbb5cd7d74af883.jpg" title="Banana" data-gallery>
-                        <img src="/images/gallery/7b4ac7_faeaf96c34f2475cadbb5cd7d74af883.jpg" class="img-thumbnail" alt="Banana">
+                    <a href="/images/gallery/7b4ac7_faeaf96c34f2475cadbb5cd7d74af883.jpg" data-gallery>
+                        <img src="/images/gallery/7b4ac7_faeaf96c34f2475cadbb5cd7d74af883.jpg" class="img-thumbnail">
                     </a>
                 </div>
 

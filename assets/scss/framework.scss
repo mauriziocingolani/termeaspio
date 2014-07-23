@@ -97,7 +97,5 @@ div.form-message {
     left: 0;
 }
 .security {
-    position: fixed;
-    top:-100000;
-    left: -100000;
+    display: none;
 }

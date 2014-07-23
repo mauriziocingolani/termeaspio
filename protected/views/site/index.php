@@ -13,21 +13,26 @@
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
             </ol>
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <!--<img src="/images/home/home1.jpg" alt="home1">-->
-                    <img class="img-responsive"src="http://placehold.it/1200x400">
+                    <img src="/images/servizi/cure-termali.png" alt="cure-termali">
                 </div>
                 <div class="item">
-                    <!--<img src="/images/home/home2.jpg" alt="home2">-->
-                    <img class="img-responsive"src="http://placehold.it/1200x400">
+                    <img src="/images/servizi/cure-anti-aging.png" alt="cure-anti-aging">
                 </div>
                 <div class="item">
-                    <!--<img src="/images/home/home3.jpg" alt="home3">-->
-                    <img class="img-responsive"src="http://placehold.it/1200x400">
+                    <img src="/images/servizi/dietologia.png" alt="dietologia">
+                </div>
+                <div class="item">
+                    <img src="/images/servizi/poliambulatorio.png" alt="poliambulatorio">
+                </div>
+                <div class="item">
+                    <img src="/images/servizi/area-benessere.png" alt="area-benessere">
                 </div>
             </div>
             <!-- Controls -->

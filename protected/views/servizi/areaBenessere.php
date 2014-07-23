@@ -1,7 +1,6 @@
 <h1>Area benessere</h1>
 
-<!--<img class="img-responsive" src="/images/servizi/area-benessere.jpg" alt="area-benessere" />-->        
-<img class="img-responsive"src="http://placehold.it/1350x600">
+<img class="img-responsive img-thumbnail" src="/images/servizi/area-benessere.png" alt="area-benessere" />        
 
 <h4>AREA DI PSICOLOGIA DEL BENESSERE &amp; BELLESSERE</h4>
 <p>
