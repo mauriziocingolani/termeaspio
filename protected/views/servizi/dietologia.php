@@ -13,6 +13,6 @@
     <li>Alimentazione dello sportivo</li>
     <li>Consulenza specifica, elaborazione e proposta di diete dedicate e personalizzate per soggetti 
         che praticano regolarmente una disciplina sportiva, sia a livello amatoriale che professionistico.</li>
-    <li>Trattamento dell&apos;obesit&agrave; infantile e in et&agrave; adulta</li>
+    <li>Trattamento dell&#8217;obesit&agrave; infantile e in et&agrave; adulta</li>
     <li>Test intolleranze alimentari</li>
 </ul>

@@ -4,7 +4,7 @@
 
 <h4>Ambulatorio di Cardiologia</h4>
 <p>
-    Nell&apos;ambulatorio di Cardiologia vengono eseguite le seguenti prestazioni:
+    Nell&#8217;ambulatorio di Cardiologia vengono eseguite le seguenti prestazioni:
 </p>
 <ul>
     <li>visita cardiologica</li>
@@ -40,8 +40,8 @@
 
 <h4>MOC – Mineralometria ossea</h4>
 <p>
-    Permette di valutare la condizione minerale dell&apos;osso per prevenire le 
-    complicanze dell&apos;osteoporosi in particolare della donna in post menopausa.
+    Permette di valutare la condizione minerale dell&#8217;osso per prevenire le 
+    complicanze dell&#8217;osteoporosi in particolare della donna in post menopausa.
 </p>
 
 <h4>Esame spirometrico</h4>

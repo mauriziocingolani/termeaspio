@@ -97,7 +97,7 @@
         <div class="row copyright">
             <div class="col-sm-12">
 
-                &copy;2014 by <strong>Terme dell&apos;Aspio</strong>
+                &copy;2014 by <strong>Terme dell&#8217;Aspio</strong>
                 - 
                 webdesign: <a href="http://it.linkedin.com/in/mauriziocingolani" target="blank" title="Maurizio Cingolani">m_cingolani</a>
 

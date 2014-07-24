@@ -4,15 +4,15 @@
 
 <h4>Idrocolon Terapia</h4>
 <p>
-    Trattamento funzionale riabilitativo dell&apos;intestino. &Egrave; indicato in caso di problemi digestivi, disturbi 
+    Trattamento funzionale riabilitativo dell&#8217;intestino. &Egrave; indicato in caso di problemi digestivi, disturbi 
     del fegato, colon irritabile, meteorismo, dismicrobismo intestinale, stitichezza, stress, intolleranze alimentari,
     alitosi, cefalea, disturbi della pelle.
 </p>
 
 <h4>Ozono terapia</h4>
 <p>
-    Utilizza l&apos;ossigeno per il trattamento di ernia discale nelle ulcere, processi di cicatrizzazione, patologie
-    di origine virale come l&egrave;epatite, herpes, infiammazioni delle articolazioni, cellulite, stress, osteoporosi, 
+    Utilizza l&#8217;ossigeno per il trattamento di ernia discale nelle ulcere, processi di cicatrizzazione, patologie
+    di origine virale come l&#8217;epatite, herpes, infiammazioni delle articolazioni, cellulite, stress, osteoporosi, &
     vulvovaginite e vaginite di origine micotica o batterica (ad esempio: Vulvovaginite da Candida).
 </p>
 

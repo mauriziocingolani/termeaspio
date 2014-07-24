@@ -4,15 +4,15 @@
 
 <h4>AREA DI PSICOLOGIA DEL BENESSERE &amp; BELLESSERE</h4>
 <p>
-    L&apos;ambulatorio di psicologia del Benessere &amp; Bellessere &egrave; dedicato alla realizzazione di 
+    L&#8217;ambulatorio di psicologia del Benessere &amp; Bellessere &egrave; dedicato alla realizzazione di 
     percorsi psicologici che riguardano la conoscenza approfondita di S&eacute; e del proprio corpo e in 
     particolare si occupa della gestione di:
 </p>
 <ul>
     <li>Problemi correlati alla propria percezione estetica</li>
     <li>Difficolt&agrave; relazionali e comunicative</li>
-    <li>Disturbi d&apos;ansia</li>
-    <li>Disturbi dell&apos;umore</li>
+    <li>Disturbi d&#8217;ansia</li>
+    <li>Disturbi dell&#8217;umore</li>
     <li>Stress (somatizzazione e lavoro correlato)</li>
     <li>Disturbi della condotta alimentare</li>
     <li>Disturbi della sfera sessuale</li>

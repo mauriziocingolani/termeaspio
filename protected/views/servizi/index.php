@@ -10,7 +10,7 @@
             'link' => '/servizi/le-cure-termali',
         ));
         ?>
-        Il poliambulatorio delle Terme dell&apos;Aspio dispone di avanzate tecnologie 
+        Il poliambulatorio delle Terme dell&#8217;Aspio dispone di avanzate tecnologie 
         che intensificano gli effetti benefici delle acque termali.
         <?php $this->endWidget(); ?>
     </div>
@@ -24,7 +24,7 @@
         ));
         ?>
         Insieme di terapie naturali e termali volte al ridimensionamento della carica patologica dei radicali liberi
-        e dei fattori che accelerano i processi d&apos;invecchiamento della cute, delle arterie e degli organi
+        e dei fattori che accelerano i processi d&#8217;invecchiamento della cute, delle arterie e degli organi
         bersaglio (cuore, cervello, reni).
         <?php $this->endWidget(); ?>
     </div>
@@ -71,7 +71,7 @@
             'link' => '/servizi/area-benessere',
         ));
         ?>
-        L&apos;ambulatorio di psicologia del Benessere &egrave; dedicato alla realizzazione di percorsi
+        L&#8217;ambulatorio di psicologia del Benessere &egrave; dedicato alla realizzazione di percorsi
         psicologici che riguardano la conoscenza approfondita di s&eacute; e del proprio corpo.
         <?php $this->endWidget(); ?>
     </div>

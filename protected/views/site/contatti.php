@@ -4,7 +4,7 @@
 
     <!-- COLONNA SX -->
     <div class="col-sm-6">
-        <h4>Terme dell&apos;Aspio</h4>
+        <h4>Terme dell&#8217;Aspio</h4>
         <p><strong>Cure termali e trattamenti naturali</strong></p>
         <p>
             Via Aspio Terme<br />

@@ -2,7 +2,7 @@
 
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
-    'name' => 'Terme dell&apos;Aspio',
+    'name' => 'Terme dell&#8217;Aspio',
     'language' => null,
     'timeZone' => 'Europe/Rome',
     'preload' => array('log'),
