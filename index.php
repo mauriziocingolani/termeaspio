@@ -2,7 +2,7 @@
 
 defined('YII_DEBUG') or define('YII_DEBUG', false);
 
-$yii = dirname(__FILE__) . '/../../yii-framework/yii.php';
+$yii = dirname(__FILE__) . '/../etc/yii/yii.php';
 $config = dirname(__FILE__) . '/protected/config/config.php';
 
 if (YII_DEBUG) :
