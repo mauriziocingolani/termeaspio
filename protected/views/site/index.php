@@ -50,7 +50,7 @@
 <div class="termeaspio">
     <div class="col-sm-12 text">
         Le Terme dell&#8217;Aspio si trovano nei pressi del Monte Conero in un&#8217;area che invita
-        alla scoperta e al relax. Dispongnono di un&#8217;equipe medica in grado di seguire i pazienti 
+        alla scoperta e al relax. Dispongono di un&#8217;equipe medica in grado di seguire i pazienti 
         affetti da diverse patologie mediante l&#8217;utilizzo delle acque termali e con l&#8217;ausilio
         delle pi&ugrave; moderne tecnologie, in un ambiente ideale per il benessere fisico e mentale.
     </div>
