@@ -6,7 +6,7 @@
             <div class="col-sm-6 header-left">
 
                 <a href="/">
-                    <img src="/images/logo_terme_aspio.jpg" alt="logo_terme_aspio" />
+                    <img src="/images/logo_terme_aspio.jpg" class="img-responsive" alt="logo_terme_aspio" />
                 </a>
 
             </div>

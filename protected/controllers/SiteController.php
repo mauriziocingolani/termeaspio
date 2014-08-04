@@ -76,6 +76,7 @@ class SiteController extends Controller {
             $message->addTo(Yii::app()->params['contactEmail']);
 //            $message->addBcc(Yii::app()->params['adminEmail']);
             $message->addBcc('g.mastronicola@ggfgroup.it');
+            $message->replyTo = Yii::app()->request->getPost('Email');
             $d = new stdClass();
             $d->Name = Yii::app()->request->getPost('Name');
             $d->Email = Yii::app()->request->getPost('Email');
