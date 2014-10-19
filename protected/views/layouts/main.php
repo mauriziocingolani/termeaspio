@@ -5,15 +5,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <meta name="description" content="<?php echo Html::encode(Yii::app()->params['description']); ?>">
-        <meta name="author" content="<?php echo Html::encode(Yii::app()->params['author']); ?>">
-        
+        <meta name="description" content="<?php echo Yii::app()->params['description']; ?>">
+        <meta name="author" content="<?php echo Yii::app()->params['author']; ?>">
+
         <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
 
         <?php $this->css(); ?>
         <?php $this->js(); ?>
 
-        <title><?php echo Html::encode(Yii::app()->params['title']); ?></title>
+        <title><?php echo Yii::app()->params['title']; ?></title>
 
     </head>
 
