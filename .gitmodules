@@ -7,3 +7,6 @@
 [submodule "protected/extensions/validators"]
 	path = protected/extensions/validators
 	url = https://github.com/mauriziocingolani/yii_fmwk_validators
+[submodule "assets/scss/framework"]
+	path = assets/scss/framework
+	url = https://github.com/mauriziocingolani/yii_fmwk_css

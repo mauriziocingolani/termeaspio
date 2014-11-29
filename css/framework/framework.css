@@ -1,5 +1,5 @@
 /* CSS framework
-@version 1.0.4 */
+@version 1.0.5 */
 /* body */
 body {
   overflow: hidden; }
@@ -30,6 +30,10 @@ body {
   background-position: center;
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */ }
+
+.navbar-nav i {
+  text-align: center;
+  width: 15px; }
 
 /* Paragrafo errore server */
 p.server_error {
@@ -91,6 +95,12 @@ div.form-message {
   left: 0; }
 
 .security {
-  display: none; }
+  position: fixed;
+  top: -100000;
+  left: -100000; }
+
+/* Simulazione */
+.navbar-default .navbar-nav > li > a.fakeuser {
+  color: red; }
 
 /*# sourceMappingURL=framework.css.map */
