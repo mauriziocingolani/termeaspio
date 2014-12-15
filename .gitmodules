@@ -10,3 +10,6 @@
 [submodule "assets/scss/framework"]
 	path = assets/scss/framework
 	url = https://github.com/mauriziocingolani/yii_fmwk_css
+[submodule "protected/components/framework"]
+	path = protected/components/framework
+	url = https://github.com/mauriziocingolani/yii_fmwk_php
