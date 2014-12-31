@@ -63,6 +63,10 @@ class SiteController extends Controller {
         Yii::app()->session['language'] = $language;
     }
 
+    public function actionYii() {
+        CVarDumper::dump(YiiChecker::GetYiiVersion(), 10, true);
+    }
+
     /* === AJAX === */
 
     public function actionSendContactEmail() {
