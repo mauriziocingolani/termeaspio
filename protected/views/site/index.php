@@ -4,6 +4,36 @@
  */
 ?>
 
+<?php if (!isset(Yii::app()->request->cookies['popup'])) : ?>
+
+    <div id="modal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">&nbsp;</h4>
+                </div>
+                <div class="modal-body" style="text-align: center;">
+                    <img src="/images/logo_terme_aspio.png" alt="" class="img-responsive" style="margin: 0 auto;margin-bottom: 25px;width: 250px;" />
+                    <p style="font-size: 20px;">Le <strong>attivit&agrave; ambulatoriali</strong> riprenderanno dal 18 febbraio 2015<br />
+                        nei giorni di marted&igrave; e gioved&igrave;, dalle 14:30 alle 18:00.</p>
+                    <p style="font-size: 20px;">Le <strong>cure inalatorie</strong> riprenderanno invece<br /> dal mese di maggio 2015.</p>
+                </div>
+                <div class="modal-footer" style="text-align: center;">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<?php endif; ?>
+
+<?php
+$cookie = new CHttpCookie('popup', true);
+$cookie->expire = time() + 60 * 30;
+Yii::app()->request->cookies['popup'] = $cookie;
+?>
+
 <div class="row">
     <div class="col-sm-12">
 
