@@ -101,6 +101,12 @@
                 - 
                 webdesign: <a href="http://it.linkedin.com/in/mauriziocingolani" target="blank" title="Maurizio Cingolani">m_cingolani</a>
 
+                <?php if (false): ?>
+
+                    <p>Powered by Yii <?php echo Yii::getVersion(); ?></p>
+
+                <?php endif; ?>
+
             </div>
         </div>
 

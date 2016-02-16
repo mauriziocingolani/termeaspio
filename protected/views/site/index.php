@@ -4,7 +4,7 @@
  */
 ?>
 
-<?php if (!isset(Yii::app()->request->cookies['popup'])) : ?>
+<?php if (false && !isset(Yii::app()->request->cookies['popup'])) : ?>
 
     <div id="modal" class="modal fade">
         <div class="modal-dialog">
@@ -24,14 +24,14 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
 
 <?php endif; ?>
 
 <?php
-$cookie = new CHttpCookie('popup', true);
-$cookie->expire = time() + 60 * 30;
-Yii::app()->request->cookies['popup'] = $cookie;
+//$cookie = new CHttpCookie('popup', true);
+//$cookie->expire = time() + 60 * 30;
+//Yii::app()->request->cookies['popup'] = $cookie;
 ?>
 
 <div class="row">
