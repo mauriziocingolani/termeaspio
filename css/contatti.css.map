@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,IAAK;EACD,UAAU,EAAE,IAAI",
-"sources": ["../assets/scss/contatti.scss"],
-"names": [],
-"file": "contatti.css"
-}

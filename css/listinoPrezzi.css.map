@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAGI,UAAG;EACC,UAAU,EAAE,IAAI;EAChB,cAAc,EAAE,SAAS;AAE7B,iBAAY;EACR,KAAK,ECRF,OAAe;EDSlB,aAAa,EAAE,IAAI;AAEvB,eAAQ;EACJ,KAAK,ECXH,OAAe;EDYjB,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,IAAI",
-"sources": ["../assets/scss/listinoPrezzi.scss","../assets/scss/_colors.scss"],
-"names": [],
-"file": "listinoPrezzi.css"
-}
